@@ -1,0 +1,135 @@
+* {
+    font-family: 'karla', sans-serif;
+    background-color: #E6EFF6;
+    font-size: 16px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+.low-container {
+    display: flex;
+    flex-direction: row;
+}
+.box1 {
+    background-color: #fff;
+    height: 150px;
+    width: 85vh;
+    border-radius: 10px 10px 0px 0px;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 10px;
+}
+.box2 {
+    background-color: #2BB3B1;
+    height: 150px;
+    width: 42.5vh;
+    border-radius: 0px 0px 0px 10px;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 10px;
+}
+.box3 {
+    background-color: #4ABEBD;
+    height: 150px;
+    width: 42.5vh;
+    border-radius: 0px 0px 10px 0px;
+    box-sizing: border-box;
+    padding: 25px;
+    padding-top: 10px;
+}
+.boxcontent-1 {
+    background-color: #fff;
+}
+#mainhead-1 {
+    color: #48A5A7;
+    font-weight: 700;
+    background-color: #fff;
+}
+#subhead-1 {
+    color: #BDD34C;
+    font-weight: 700;
+    background-color: #fff;
+    font-size: 14px;
+}
+#text-1 {
+    color: #9FA3AC;
+    font-weight: 700;
+    background-color: #fff;
+    font-size: 11px;
+    line-height: 18px;
+}
+.pricecont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2BB3B1;
+}
+.boxcontent-2 {
+    background-color: #2BB3B1;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+#mainhead-2 {
+    color: #fff;
+    font-weight: 700;
+    background-color: #2BB3B1;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+#amt {
+    color: #fff;
+    font-size: 20px;
+    background-color: #2BB3B1;
+    font-weight: 700;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+#subhead-2 {
+    color: #81E0E2;
+    /* font-weight: 700; */
+    background-color: #2BB3B1;
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#text-2 {
+    color: #fff;
+    /* font-weight: 700; */
+    background-color: #2BB3B1;
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 0px;
+}
+#sign {
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 7px 7px;
+    color: #fff;
+    border-color: #BFDF32;
+    background-color: #BFDF32;
+    box-shadow: none;
+    outline: none;
+}
+.boxcontent-3 {
+    background-color: #4ABEBD;
+}
+#mainhead-3 {
+    color: #fff;
+    font-weight: 700;
+    background-color: #4ABEBD;
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+#text-3 {
+    color: #fff;
+    background-color: #4ABEBD;
+    font-size: 7px;
+    margin-top: 0px;
+    line-height: 12px;
+}

@@ -1,0 +1,43 @@
+@media only screen and (max-width: 380px) {
+    /* .container {
+            padding: 0px;
+            margin: 0px;
+            display: fleax;
+            flex-direction: column;
+    } */
+    .low-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 {
+        width: 42.5vh;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .box2 {
+        border-radius: 0px 0px 0px 0px;
+    } 
+    .box3 {
+        border-radius: 0px 0px 8px 8px;
+    }
+    #mainhead-1 {
+        font-size: 12px;
+    }
+    #subhead-1 {
+        font-size: 10px;
+    }
+    #text-1 {
+        font-size: 7px;
+        line-height: 10px;
+    }
+    #mainhead-2 {
+        font-size: 12px;
+    }
+    #subhead-2 {
+        font-size: 10px;
+    }
+    #text-2 {
+        font-size: 7px;
+        line-height: 10px;
+        margin-bottom: 5px;
+    }
+}
