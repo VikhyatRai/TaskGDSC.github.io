@@ -1,0 +1,48 @@
+#exp2
+pwd
+ls
+ls -l
+echo
+date
+uptime
+time
+cal
+cal2023
+mkdir vikhyat
+mkdir sub vik <--sub directories
+cd vikhyat
+man echo
+whoami
+who
+w
+history
+ifconfig
+ping gooogle.com
+vi filename
+{ to insert "a"
+esc : wq enter <-- to exit
+}
+cat filename <-- display content of that file
+cat file1 file2 <---concatinate
+mv file1/path/file2 <--to move the file 
+
+
+<----Nano editor---->
+nano hello.c
+gcc hello.c <---compile
+ls
+./a.out <---to print the output
+
+<---hellocworld-->
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+
+
+
+
+
+

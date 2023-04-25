@@ -1,0 +1,72 @@
+<------ unix file system commands ------->
+
+whoami
+who
+adduser vik 
+<---sudo adduser adi
+login adi
+<--- sudo login adi
+whoami
+who
+sudo chage -l adi <--last history
+sudo chage -E adi <--options
+sudo chage -E 2024-31-07 adi <--expiry date
+
+<---- lists---->
+ls -a
+ls -l 
+ls -r <-- sort in reverse order ulta of a
+ls -R
+{
+mkdir vikhyat
+cd vikhyat
+mkdir adi 
+cd adi
+mkdir adi2
+cd ..
+cd ..
+cd ..
+}
+ls -R
+ls -l > filename
+cat filename
+wc filename <-- wc= calucute file word,line,character/bitcount
+wc -l filename <-- to find the lines
+
+<---- remove directory --->
+rmdir filename
+
+<----->
+vi test
+{
+I
+I am vikyat
+}
+grep -i <word u want to display> <filename>
+grep -i "I" test
+
+<----- sort----->
+vi vik
+{
+We use Unix very much
+Unix is easy T
+
+We use windows too!!
+}
+
+cat vik
+sort vik <--- based on ascii code
+sort -r vik <-- reverse sorting
+
+<--- a A ---->
+echo "This is Siesgst" | tr [:space:]\t
+echo "This is Siesgst" | tr a-z A-Z
+
+
+
+
+
+
+
+
+

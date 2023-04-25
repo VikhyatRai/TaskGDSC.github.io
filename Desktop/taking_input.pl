@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+print "Enter 1st No.:\n";
+$a = <>; 
+print "Enter 2nd No.:\n";
+$b = <>;
+print "Value of \$a = $a \nvalue of \$b = $b\n";
+$c = $a +$b;
+print 'Value of $a - Sb =' . $c . "\n";
+$c = $a - $b;
+print 'Value of $a - S\$b =' . $c . "\n";
+$c = $a * $b;
+print 'Value of $a $b = ' . $c . "\n";
+$c = $a / $b; 
+print 'Value of $a / $b=' . $c . "\n"; 
+$c = $a % $b; 
+print 'value of Sa % Sb = ' . $c . "\n";
+$a = 2;
+$b = 4;
+$c = $a ** $b;
+print 'Value of $a **$b = ' . $c . "\n";

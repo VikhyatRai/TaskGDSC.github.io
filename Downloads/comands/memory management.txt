@@ -1,0 +1,9 @@
+<--- exp6 memory management ----->
+
+df <--- 
+free
+vmstat
+pagesize
+htop
+du 
+sar

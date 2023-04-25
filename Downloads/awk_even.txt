@@ -1,0 +1,15 @@
+awk 'BEGIN{
+print "enter lower limit"
+getline n1
+print "enter upper limit"
+getline n2
+print "_______"
+while(n1<n2)
+{
+if(n1%2==0)
+{
+print n1
+}
+n1=n1+1
+}
+}'

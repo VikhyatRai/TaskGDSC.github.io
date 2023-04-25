@@ -1,0 +1,3 @@
+<---- perl scripting ----->
+chmod +x filename.pl
+./filename.pl

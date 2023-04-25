@@ -1,0 +1,59 @@
+<---- grep & sed commands ----->
+
+cat>vik.txt
+cntrl Z
+cat vik.txt{
+hi
+i am aditya
+i am in second year
+}
+sed 's/aditya/ADITYA/' vik.txt <---a to A
+sed 's/second/third/g' vik.txt <---word change karta hai
+
+<---replacing string on a  specific line ------->
+sed '2 s/aditya/vik/' vik.txt
+
+<----duplicate----->
+sed 's/hi/hello/p' vik.txt
+
+<--- replacing strings on a range of lines----->
+
+sed '2,3 s/i/yo/' vik.txt
+
+<---- paricular word mentioned in which line --->
+
+sed -n '/am/=' vik.txt
+
+
+<----- deleting lines from a perticular files ---->
+
+sed '=' vik.txt <--- print th eline no a line inserdt
+
+sed '2d' vik.txt <---- deleting lines from particular file
+
+<------ sed comands to find total occurance of the word ----->
+
+sed '/i/!d' vik.txt | wc -l
+
+
+<---------------------------------------------- grep comands------------------------------------>>>
+
+grep -i "i" vik.txt <-- will search word 
+
+grep -c "am" vi.txt <-- finds how many times a word is repeated
+
+grep -w "aditya" vik.txt <-- same as i
+
+
+<<<<<<<<------------ Egrep commands ------------>>>>>
+
+egrep -c "am" vik.txt 
+
+egrep -i "i" vik.txt
+
+ls -l |egrep "^d"
+ls -l |grep "^d"
+
+ls -l |egrep ".sh"
+ls -l |grep ".sh"
+

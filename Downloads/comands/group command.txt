@@ -1,0 +1,40 @@
+<---- group command --->
+
+<--creating group in linux ---->
+sudo groupadd IT
+cat /etc/group 
+
+---<adding users intothat group>----
+cat /etc/group |grep IT <--to check how many user
+sudo usermod -G IT adi1
+sudo usermod -G IT adi1
+cat /etc/group |grep IT <--to check how many user
+
+
+<----renaming the group ---->
+sudo groupmod -n IT2022 IT <--- new name old name
+cat /etc/group |grep IT2022
+
+
+<--- Removing user from group----->
+sudo gpasswd -d adi1 IT2022 <--to remove user
+
+<---- changing permission ---->
+chmod 744 filename <---change permission
+ls -l
+chmod 745 filename 
+sudo chown adi tp <--change ownership 
+ls
+ls -l
+mkdir tp1
+ls
+sudo chown adi1 tp1
+ls -l
+chfn it78 <--- change finger
+finger it78(username)
+ 
+
+
+
+
+

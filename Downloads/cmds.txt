@@ -1,0 +1,203 @@
+Exp 2 General Purpose Utility
+
+1. pwd
+
+2. echo Hello I’m Shantanu
+
+3. ls
+
+4. date
+
+5. uptime
+
+6. cal 2023
+
+7. mkdir 121A3018
+
+8. cd 121A3018
+
+9. ls
+
+10. whoami
+
+11. who
+
+12. w
+
+13. history
+
+14. ifconfig
+
+15. ping google.com
+
+ 
+
+ 
+
+Exp 3 file system commands
+
+1. ls -a
+
+2. ls -l
+
+3. ls -r
+
+4. ls -R
+
+5. ls -l > filename
+
+6. wc filename
+
+ls
+
+wc -l filename
+
+7. rmdir filename
+
+8. vi test
+
+grep -i “Unix” test
+
+9. cat test
+
+sort test
+
+sort -r test
+
+10. echo “This is SIES GST” | tr a-z A-Z
+
+cat test| tr a-z A-Z
+
+ 
+
+ 
+
+ 
+
+Exp 4 process management
+
+1. ps
+
+ps -ax
+
+ps -l
+
+ps -ef
+
+ps -aux
+
+ps -C firefox
+
+kill -l
+
+2. pstree
+
+3. kill -l
+
+4. killall
+
+5. pgrep firefox
+
+6. top
+
+ 
+
+ 
+
+ 
+
+Exp 5 memory management
+
+1. free
+
+2. free -b
+
+3. free -k
+
+4. du
+
+5. df
+
+6. top
+
+7. vmstat
+
+8. cat /proc/meminfo
+
+9. sudo dmidecode
+
+10. getconf PAGE_SIZE
+
+11. htop
+
+ 
+
+ 
+
+ 
+
+Exp 6
+
+1. df
+
+2. free
+
+3. vmstat
+
+4. pagesize
+
+5. htop
+
+6. du
+
+7. sar
+
+ 
+
+ 
+
+Exp 8 Advanced Scripts
+
+A. sed commands
+
+1. cat> shan.txt
+
+Hello Guys
+
+Shantanu here
+
+From SE IT
+
+2. sed ‘s/here/HERE/’ shan.txt
+
+3. sed ‘s/Unix/Linux/g’ 121A3018.txt
+
+4. sed ‘s/Unix/Linux/g’ test.txt
+
+5. sed ‘2,3 s/unix/linux/’ test.txt
+
+6. sed ‘3,$ s/unix/linux/’ test.txt
+
+7. sed -n ‘/unix/=’ test.txt
+
+8. sed ‘=’ test.txt
+
+9. sed ‘3d’ test.txt
+
+10. sed ‘/linux/d’ test.txt
+
+B. grep commands
+
+1. grep -I  “unix” test.txt
+
+2. grep -c  “unix” test.txt
+
+3. grep -w “unix” test.txt
+
+4. egrep -c “unix” test.txt
+
+5. egrep -i “unix” test.txt
+
+6. ls -l |egrep “^d”
+
+7. ls -l |egrep “.sh”

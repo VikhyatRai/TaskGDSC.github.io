@@ -1,0 +1,30 @@
+<--- exp5 process management----->
+
+ps <--- active process state
+
+ps -a <--- running process
+px -x 
+ps -u <--- proocess that are running on the system
+ps -e 
+ps -r  
+ps -s
+ps <processid>
+ps 1629
+pstree 
+nice
+Renice{
+sudo renice -3 83802  (newpriority processid)
+}
+
+<--->
+vi & <-- to launch vi editor in background
+fg vi
+
+<----->
+kill <processid>
+kill 13420
+ps -ef 
+
+
+
+
